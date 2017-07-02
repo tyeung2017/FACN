@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <input type=text id="in" size=20>
+    <table>
+        <tr>
+            <td><input type=button value=" 1 " OnClick="document.getElementById('in').value += '1'"></td> 
+            <td><input type=button value=" 2 " OnClick="document.getElementById('in').value += '2'"></td> 
+            <td><input type=button value=" 3 " OnClick="document.getElementById('in').value += '3'"></td> 
+            <td><input type=button value=" 4 " OnClick="document.getElementById('in').value += '4'"></td> 
+            <td><input type=button value=" + " OnClick="document.getElementById('in').value += '+'"></td> 
+            </tr>
+            <tr>
+            <td><input type=button value=" 5 " OnClick="document.getElementById('in').value += '5'"></td> 
+            <td><input type=button value=" 6 " OnClick="document.getElementById('in').value += '6'"></td> 
+            <td><input type=button value=" 7 " OnClick="document.getElementById('in').value += '7'"></td> 
+            <td><input type=button value=" 8 " OnClick="document.getElementById('in').value += '8'"></td> 
+            <td><input type=button value=" - " OnClick="document.getElementById('in').value += '-'"></td> 
+            </tr>
+            <tr>
+            <td><input type=button value=" 9 " OnClick="document.getElementById('in').value += '9'"></td> 
+            <td><input type=button value=" 0 " OnClick="document.getElementById('in').value += '0'"></td> 
+            <td><input type=button value=" c " OnClick="document.getElementById('in').value = ''"></td> 
+            <td><input type=button value=" x " OnClick="document.getElementById('in').value += '*'"></td> 
+            <td><input type=button value=" / " OnClick="document.getElementById('in').value += '/'"></td> 
+            </tr>
+            <tr>
+            <td><input type=button value=" . " OnClick="document.getElementById('in').value += '.'"></td> 
+            <td><input type=button value=" = " OnClick="document.getElementById('in').value = eval(document.getElementById('in').value)"></td> 
+        </tr>
+    </table>
+    <script>
+        console.log(document.getElementById("in"));
+    </script>
+</html>
