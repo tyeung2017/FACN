@@ -1,9 +1,9 @@
-#What is web storage?
+# What is web storage?
 
 Web storage, sometimes known as DOM storage (Document Object Model storage), provides web application software methods and protocols used for storing data in a web browser.
 
-#Local and session storage
-Web storage offers two different storage areas—local storage and session storage—which differ in scope and lifetime.  
+# Local and session storage
+Web storage offers two different storage areas—local storage and session storage—which differ in scope and lifetime.
 
 Data placed in *local storage* is per origin (the combination of protocol, hostname, and port number as defined in the same-origin policy) (the data is available to all scripts loaded from pages from the same origin that previously stored the data) and persists after the browser is closed.
 
@@ -17,7 +17,7 @@ Hence it is kind of immune to CSRF, but since it is interactive with javascript,
 
 Cookies on the other hand, if the httpOnly flag is on, it is kind of immune to XSS as it does not interact with javascript in the browser.
 
-#Comparison between cookies vs localStorage vs  sessionStorage
+# Comparison between cookies vs localStorage vs  sessionStorage
 
 |                    | cookies             | localStorage   |sessionStorage   |
 |---                 |---                  |---             |---              |
@@ -28,7 +28,7 @@ Cookies on the other hand, if the httpOnly flag is on, it is kind of immune to X
 | sent with requests | yes                 | no             | no      |
 
 
-#Demo for local storage and session storage
+# Demo for local storage and session storage
 
 To set values in local storage:  
 
