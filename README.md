@@ -42,7 +42,7 @@ https://github.com/tyeung2017/facnrecipev4
 + Peer project - Develop app based on peers' idea; The app is for taking notes of a video by marking a timestamp; Built in React, Node and Postgre  
 https://github.com/tyeung2017/vidNotes
 
-+ Prototype for Hasoub accelerator - Develop a protoytpe for Hasoub accelerator participants to pitch their ideas; The app was about a VR education startup - class360
++ Prototype for Hasoub accelerator - Develop a protoytpe for Hasoub accelerator participants to pitch their ideas; The app was about a VR education startup - class360  
 https://github.com/tyeung2017/class360
 
 + Prototype for Education lab - Develope a MVP to improve the education system for Arab students in Israel
